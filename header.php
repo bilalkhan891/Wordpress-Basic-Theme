@@ -20,20 +20,20 @@ endif;
 	
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="container">
+		 
 			<a class="navbar-brand" href="#">Awesome Theme</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse form-inline" id="navbarText">
+			<div class="collapse navbar-collapse" id="navbarText">
 					<?php wp_nav_menu( array( 
 							'theme_location' => 'primary', 
 							'container' => false,
-							'menu_class' => 'navbar-nav mr-0 ml-auto', 
+							'menu_class' => 'navbar-nav', 
 						) 
 					); ?>
-			</div>
-		</div>
+			</div>  
+				<?php get_search_form( ); ?>  
 	</nav>
 	<!-- /END Navigation -->
 

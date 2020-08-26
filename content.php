@@ -25,4 +25,4 @@
 		</div>
 		 
 </article>
-<hr>
+ 
